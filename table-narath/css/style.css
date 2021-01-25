@@ -1,0 +1,27 @@
+.container{
+    width:80%;
+    margin: auto;
+}
+
+table{
+    
+    border-collapse: collapse;
+    width:100%;
+    
+}
+th,td,tr{
+    border:2px solid green;
+    padding:20px;
+    font-family: sans-serif;
+}
+th{
+    background: rgb(1, 14, 49);
+    color:#fff;
+    text-transform: uppercase;
+}
+tbody tr:nth-child(even){
+    background:yellow;
+}
+tbody tr:nth-child(odd){
+    background:red;
+}
